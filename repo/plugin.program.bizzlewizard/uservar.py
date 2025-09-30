@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR skyblue][B]Bizzle[/B][/COLOR]Wizard'
 BUILDERNAME = 'BizzleWizard'
 EXCLUDES = [ADDON_ID, 'repository.bizzlebuild']
 # Text File with build info in it. Please read https://github.com/bizzlebuild/plugin.program.bizzlewizard/wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/bizzlebuild/plugin.program.bizzlewizard/master/resources/text/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/bizzlebuild/plugin.program.bizzlewizard/main/resources/text/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -98,7 +98,7 @@ AUTOINSTALL = 'No'
 # Addon ID for the repository
 REPOID = 'repository.bizzle'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://'
+REPOADDONXML = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzlebuild/master/repo/zips/repository.bizzlebuild/addon.xml'
 # Url to folder zip is located in
 REPOZIPURL = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzlebuild/master/repo/zips/repository.bizzlebuild-1.0.zip'
 #########################################################
