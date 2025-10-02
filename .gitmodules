@@ -1,3 +1,6 @@
 [submodule "plugin.program.bizzlewizard"]
 	path = plugin.program.bizzlewizard
 	url = https://github.com/bizzlebuild/plugin.program.bizzlewizard.git
+[submodule "script.kodinerds.android.update"]
+	path = script.kodinerds.android.update
+	url = https://github.com/Maven85/script.kodinerds.android.update.git
