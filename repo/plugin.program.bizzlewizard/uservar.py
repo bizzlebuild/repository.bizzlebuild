@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR skyblue][B]Bizzle[/B][/COLOR]Wizard'
 BUILDERNAME = 'BizzleWizard'
 EXCLUDES = [ADDON_ID, 'repository.bizzlebuild']
 # Text File with build info in it. Please read https://github.com/bizzlebuild/plugin.program.bizzlewizard/wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/bizzlebuild/plugin.program.bizzlewizard/main/resources/text/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzlebuild/refs/heads/master/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
