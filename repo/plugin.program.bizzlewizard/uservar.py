@@ -13,10 +13,10 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR skyblue][B]Bizzle[/B][/COLOR]Wizard'
-BUILDERNAME = 'BizzleWizard'
-EXCLUDES = [ADDON_ID, 'repository.bizzlebuild']
-# Text File with build info in it. Please read https://github.com/bizzlebuild/plugin.program.bizzlewizard/wiki/Installing-Builds
+ADDONTITLE = '[COLOR skyblue][B]bizzlezle[/B][/COLOR]Wizard'
+BUILDERNAME = 'bizzlezleWizard'
+EXCLUDES = [ADDON_ID, 'repository.bizzle']
+# Text File with build info in it. Please read https://github.com/bizzlezlebuild/plugin.program.bizzlezlewizard/wiki/Installing-Builds
 BUILDFILE = 'https://raw.githubusercontent.com/bizzlebuild/plugin.program.bizzlewizard/refs/heads/main/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
@@ -63,7 +63,7 @@ SPACER = '='
 COLOR1 = 'skyblue'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]bizzle[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
+THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]bizzlezle[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
 # Build Names          / {0} is the menu item and is required
 THEME2 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR1)
 # Alternate items      / {0} is the menu item and is required
@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing bizzlewizard.\n\nContact us on Github at http://www.github.com/bizzlebuild/plugin.program.bizzlewizard/'
+CONTACT = 'Thank you for choosing bizzlezleWizard.\n\nContact us on Github at http://www.github.com/bizzlebuild/plugin.program.bizzlezlewizard/'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -94,13 +94,13 @@ AUTOUPDATE = 'Yes'
 #        Auto Install Repo If Not Installed             #
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'No'
+AUTOINSTALL = 'yes'
 # Addon ID for the repository
 REPOID = 'repository.bizzle'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzlebuild/master/repo/zips/repository.bizzlebuild/addon.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzle/master/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/bizzlebuild/repository.bizzlebuild/master/repo/zips/repository.bizzlebuild-1.0.zip'
+REPOZIPURL = 'https://'https://raw.githubusercontent.com/bizzlebuild.github.io/repository.bizzlebuild-1.0.zip
 #########################################################
 
 #########################################################
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR skyblue][B]Bizzle[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR skyblue][B]bizzlezle[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
